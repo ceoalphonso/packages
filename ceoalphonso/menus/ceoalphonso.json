@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ceoalphonso",
+        "command": "ceoalphonso:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ceoalphonso",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ceoalphonso:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
